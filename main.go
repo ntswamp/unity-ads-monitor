@@ -11,8 +11,8 @@ import (
 	"time"
 )
 
-const ORGANIZATIONID = "15668055009592"
-const APIKEY = "bb7d0bfc404e46906b4f37be3fa9822c977bf752658ab650c3d17e62ab433fbf"
+const ORGANIZATIONID = "YOUR-ORGANIZATION-ID"
+const APIKEY = "YOUR-APIKEY"
 
 type AdState struct {
 	AdRequest int `json:"adrequest_count"`
