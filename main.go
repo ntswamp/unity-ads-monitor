@@ -36,11 +36,11 @@ func main() {
 	for {
 		select {
 		case <-done:
-			fmt.Println("広告が停止しています")
+			//fmt.Println("Ads Stopped Working")
 			//send to chatwork
 			return
 		case <-ticker.C:
-			fmt.Println("異常ありません")
+			//fmt.Println("No Exception")
 		}
 	}
 }
